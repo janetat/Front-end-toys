@@ -1,5 +1,5 @@
 # Note:
-> Mozilla template
+## Mozilla template
 > 1. switch pic by using JS
 > 2. use localStorage to store and resotre name
 
