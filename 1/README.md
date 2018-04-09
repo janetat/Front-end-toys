@@ -4,5 +4,5 @@
 > 2. use localStorage to store and resotre name
 
 Screenshot:
-![shot1](/Screenshot/1.png)
-![shot2](/Screenshot/2.png)
+![shot1](./Screenshot/1.png)
+![shot2](./Screenshot/2.png)
