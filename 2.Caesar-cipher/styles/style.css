@@ -1,0 +1,53 @@
+html {
+    font-size: 10px;
+    background-color: #00539F;
+    margin: 0;
+}
+
+body {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.block {
+    display: block;
+}
+
+.controls {
+    width: 100%;
+    height: 100%;
+}
+
+#shift {
+    width: 20px;
+    height: 20px;
+}
+
+#text {
+    width: 600px;
+    height: 100px;
+}
