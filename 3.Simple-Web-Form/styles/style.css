@@ -1,0 +1,77 @@
+/*element selector*/
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*
+form {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+p {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+input {
+    font-family: Verdana, Arial, sans-serif; 
+}
+*/
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+label {
+    font-size: 22px;
+}
+
+/*id selector*/
+
+#header {
+    position: relative;
+    background-color: peru;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    height: 40px;
+}
+
+#wrapper {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px 3px 3px #444;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+#inputs {
+    width: 40%;
+    clear: both;
+    margin: 0 auto;
+}
+
+#inputs input {
+    width: 100%;
+    font-size: 22px;
+    /*当margin有两个元素，第一个位置为top和bottom，第二个位置为left和right*/
+    margin: 5px auto;
+}
+
+#inputs textarea {
+    margin: 5px auto;
+}
+
+#options {
+    width: 40%;
+    clear: both;
+    margin: 0 auto;
+}
+
+/*class selector*/
