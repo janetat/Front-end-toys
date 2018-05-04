@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Select and Deselect</title>
+    <link rel='stylesheet' type='text/css' href='styles/style.css' />
+    <!-- 引入jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- 引入本地js -->
+    <script src="scripts/main.js"></script>
+</head>
+
+<body>
+    <form id="test-form" action="test">
+        <legend>请选择想要学习的编程语言：</legend>
+        <!-- <fieldset></fieldset> -->
+        <div>
+            <fieldset>
+                <p>
+                    <label class="selectAll">
+                        <input type="checkbox">
+                        <span class="selectAll">全选</span>
+                        <span class="deselectAll">全不选</span>
+                    </label>
+                    <a href="#0" class="invertSelect">反选</a>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="lang" value="javascript"> JavaScript</label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="lang" value="python"> Python</label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="lang" value="ruby"> Ruby</label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="lang" value="haskell"> Haskell</label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="lang" value="scheme"> Scheme</label>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+        </div>
+        </fieldset>
+
+        <!-- <fieldset></fieldset> -->
+    </form>
+
+</body>
+
+</html>
