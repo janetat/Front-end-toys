@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Web Form</title>
-        <link rel='stylesheet' type='text/css' href='styles/style.css'/>
-    </head>
-    <body>
-        <div id="header"><h1>Contact Us!</h1></div>
-        <div id="wrapper">
-                <!--form-->
-                <form name="input" action="http://www.w3school.com.cn/demo/demo_form.asp" >
-                    <!--inputs area-->
-                    <div id="inputs">
-                        <label>First name:</label><input type="text" name="firstname" placeholder="first name"><br/>
-                        <label>Last name:</label> <input type="text" name="lastname" placeholder="last name"><br/>
-                        <label>E-mail:</label> <input type="email" name="email" placeholder="e-mail address"><br/><br/>
-                        <label>Message:</label> <br/><textarea name="msg" placeholder="Appreciate your views!"></textarea><br/>
-                    </div>
-                    <!--options area-->
-                    <div id="options">
-                        <label>Sex:</label>
-                        <input type="radio" name="sex" value="male">Male
-                        <input type="radio" name="sex" value="female">Female<br/><br/>
-                        <input type="checkbox" name="notify" value="updates" checked>checkbox1
-                        <input type="checkbox" name="notify" value="services">checkbox2<br/><br/> 
-                        <input type="submit" value="Submit">
-                    </div>
-                    
-                </form>
-        </div>
-    </body>
+
+<head>
+    <title>Web Form</title>
+    <link rel='stylesheet' type='text/css' href='styles/style.css' />
+</head>
+
+<body>
+    <div id="header">
+        <h1>Contact Us!</h1>
+    </div>
+    <div id="wrapper">
+        <!--form-->
+        <form name="input" action="http://www.w3school.com.cn/demo/demo_form.asp">
+            <!--inputs area-->
+            <div id="inputs">
+                <label>First name:</label>
+                <input type="text" name="firstname" placeholder="first name">
+                <br/>
+                <label>Last name:</label>
+                <input type="text" name="lastname" placeholder="last name">
+                <br/>
+                <label>E-mail:</label>
+                <input type="email" name="email" placeholder="e-mail address">
+                <br/>
+                <br/>
+                <label>Message:</label>
+                <br/>
+                <textarea name="msg" placeholder="Appreciate your views!"></textarea>
+                <br/>
+            </div>
+            <!--options area-->
+            <div id="options">
+                <label>Sex:</label>
+                <input type="radio" name="sex" value="male">Male
+                <input type="radio" name="sex" value="female">Female
+                <br/>
+                <br/>
+                <input type="checkbox" name="notify" value="updates" checked>checkbox1
+                <input type="checkbox" name="notify" value="services">checkbox2
+                <br/>
+                <br/>
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+
 </html>

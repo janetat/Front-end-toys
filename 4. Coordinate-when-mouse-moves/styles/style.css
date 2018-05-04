@@ -1,0 +1,11 @@
+.test-block {
+    /* display: block; */
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
