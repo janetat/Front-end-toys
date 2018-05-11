@@ -3,5 +3,6 @@
 > 1. Based on CSS Sprite
 
 Screenshot:
+
 ![shot1](./Screenshot/1.png)
 
